@@ -1,0 +1,21 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Virtual env ---
+env/
+venv/
+.venv/
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Model / weights ---
+*.pt
+
+# --- Upload & prediction outputs ---
+static/uploads/
+static/results/
+static/predict/
